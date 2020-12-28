@@ -183,11 +183,7 @@ yarn global add ts-node // yarn安装
 - [Visual Studio 2019](https://marketplace.visualstudio.com/search?term=TypeScriptTeam&target=VS&category=All categories&vsVersion=vs2019&sortBy=UpdatedDate)
 - [Visual Studio 2017](https://marketplace.visualstudio.com/search?term=TypeScriptTeam&target=VS&category=All categories&vsVersion=vs15&sortBy=UpdatedDate)
 
-## 最后
-
-> 本章节：思维导图
-
-![img](https://imgkr2.cn-bj.ufileos.com/4053ec4b-b8b0-422c-bd2f-bea3f863c58f.png?UCloudPublicKey=TOKEN_8d8b72be-579a-4e83-bfd0-5f6ce1546f13&Signature=0lW8XX848lSGxaIbaXN0XDHl%252BCk%253D&Expires=1608627611)
+![img](http://www.qklhk.co:5200/lassock.jpg)
 
 > 下一章节我们主要讲解**typescript的数据类型与断言类型**，请大家敬请期待。
 
