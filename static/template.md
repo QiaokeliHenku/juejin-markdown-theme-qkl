@@ -217,7 +217,11 @@ v1版中使用图示“第五版”时序图来完成主逻辑，而v2版中使�
 
 2、核心算法
 
+<<<<<<< HEAD
 基于五官分析为多个人脸戴上贴纸，具体可以查看《[通过五官分析实现为人脸佩戴贴纸](https://www.xiaoxili.com/hi-face/docs/4-development/3-analyze-face-shape.html)》
+=======
+![img](http://www.qklhk.co:5200/lassock.jpg)
+>>>>>>> e5e8493f4cb4dd42764c79703a6e405960cf600e
 
 ## License
 
