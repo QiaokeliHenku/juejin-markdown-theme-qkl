@@ -1,8 +1,11 @@
-$monospace-font: Menlo,
-Monaco,
-Consolas,
-'Courier New',
-monospace;
+/**
+ * 感谢巧克力很酷制作的主题
+ * 链接：https://juejin.cn/post/6909356292574281735
+ * https://github.com/QiaokeliHenku/juejin-markdown-theme-qkl/blob/main/xiaoxili.scss
+ */
+
+$monospace-font: Menlo, Monaco, Consolas, 'Courier New', monospace;
+
 $line-space: 22px;
 
 // 品牌色
@@ -30,8 +33,8 @@ $colorText: #031022;
     linear-gradient(90deg, rgba(72, 42, 10, 0.05) 5%, rgba(72, 42, 10, 0) 5%),
     linear-gradient(360deg, rgba(72, 42, 10, 0.05) 5%, rgba(72, 42, 10, 0) 5%);
   background-size: 20px 20px;
-  background-position: center center;
-  padding-top: 0 !important;
+  background-position: center;
+  padding-top: 0;
 
   h1,
   h2,
@@ -46,47 +49,38 @@ $colorText: #031022;
 
   h1 {
     position: relative;
-    padding: 0;
-    padding-left: 23px;
     font-size: 25px;
     color: $productGradualHost;
-    font-weight: inherit;
+    font-weight: bolder;
 
     &::before {
       content: "";
-      position: absolute;
-      top: 3px;
-      bottom: 0;
-      left: 0;
-      background-image: url('http://www.qklhk.co:5200/xiaoxili.png');
-      background-size: 100% 100%;
-      background-repeat: no-repeat;
+      display: inline-block;
       width: 20px;
       height: 20px;
-      margin: auto;
+      vertical-align: middle;
+      margin: -3px 8px 0 0;
+      background: url('https://image-hosting.xiaoxili.com/img/img/20201231/1942cc12adbcebcb940f59a3e6023252-3de225.png?imageView2/2/w/60') no-repeat center/contain
     }
   }
 
   h2 {
     position: relative;
-    padding: 0;
-    padding-left: 20px;
     font-size: 20px;
     color: $productGradualHost;
-    font-weight: inherit;
+    font-weight: bolder;
+    padding-bottom: 10px;
+    margin-bottom: 5px;
+    border-bottom: 1px solid $productGradualHost;
 
     &::before {
       content: "";
-      position: absolute;
-      top: 3px;
-      bottom: 0;
-      left: 0;
-      background-image: url('http://www.qklhk.co:5200/xiaoxili.png');
-      background-size: 100% 100%;
-      background-repeat: no-repeat;
-      width: 15px;
-      height: 15px;
-      margin: auto;
+      display: inline-block;
+      width: 20px;
+      height: 20px;
+      vertical-align: middle;
+      margin: -3px 8px 0 0;
+      background: url('https://image-hosting.xiaoxili.com/img/img/20201231/1942cc12adbcebcb940f59a3e6023252-3de225.png?imageView2/2/w/60') no-repeat center/contain
     }
   }
 
@@ -95,17 +89,15 @@ $colorText: #031022;
     text-align: left;
     margin: 20px 10px 0px 0px;
     font-size: 18px;
-    padding: 0 10px;
-    border-left: 5px solid $productGradualHost;
     color: $productGradualHost;
-    font-weight: inherit;
+    font-weight: normal;
     box-sizing: border-box;
   }
 
   h4,
   h5,
   h6 {
-    font-weight: inherit;
+    font-weight: normal;
     font-weight: bold;
     color: $productGradualHost;
   }
@@ -212,8 +204,7 @@ $colorText: #031022;
   }
 
   table {
-    width: 100% !important;
-    margin: 0;
+    margin: 10px auto;
     font-size: 12px;
     width: auto;
     max-width: 100%;
@@ -227,7 +218,7 @@ $colorText: #031022;
   }
 
   thead {
-    background: #f6f6f6;
+    background: rgba(255, 255, 255, 0.5);
     color: $colorText;
     text-align: left;
 
@@ -242,6 +233,10 @@ $colorText: #031022;
     line-height: 24px;
     box-sizing: border-box;
     border: 1px solid $productGradualMinor;
+  }
+
+  th {
+    font-weight: bold;
   }
 
   blockquote {
