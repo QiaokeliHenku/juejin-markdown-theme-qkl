@@ -23,7 +23,7 @@ $funError: #FF3271;
 $funEmbellish: #FF6F9B;
 
 // 段落颜色
-$colorText: #031022;
+$colorText: #2f3742;
 
 .markdown-body {
   overflow: hidden;
@@ -89,17 +89,16 @@ $colorText: #031022;
     text-align: left;
     margin: 20px 10px 0px 0px;
     font-size: 18px;
-    color: $productGradualHost;
-    font-weight: normal;
+    color: $colorText;
+    font-weight: bolder;
     box-sizing: border-box;
   }
 
   h4,
   h5,
   h6 {
-    font-weight: normal;
     font-weight: bold;
-    color: $productGradualHost;
+    color: $colorText;
   }
 
   h4 {
